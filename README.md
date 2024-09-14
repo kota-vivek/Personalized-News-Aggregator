@@ -79,4 +79,5 @@ news-aggregator/
 ├── news_articles.csv      # CSV file containing scraped articles
 ├── requirements.txt       # Dependencies
 ├── README.md              # Documentation
+├── Demonstration.mp4      # Demo Video
 ```

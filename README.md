@@ -10,8 +10,6 @@ This project is a Flask-based news aggregator that scrapes articles from various
 - [Running the Application](#running-the-application)
 - [API Endpoints](#api-endpoints)
 - [Project Structure](#project-structure)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 
@@ -76,9 +74,9 @@ Visit http://127.0.0.1:5000/ to see the API in action.
 ```bash
 news-aggregator/
 │
-├── main.py                 # Flask application
+├── main.py                # Flask application
 ├── assignment.ipynb       # Web scraper for news articles
-├── new_articles.csv       # CSV file containing scraped articles
+├── news_articles.csv      # CSV file containing scraped articles
 ├── requirements.txt       # Dependencies
 ├── README.md              # Documentation
 ```

@@ -64,9 +64,9 @@ Visit http://127.0.0.1:5000/ to see the API in action.
 - **GET /articles**
     Retrieves all articles.
     Query parameters: category, start_date, end_date.
--**GET /articles/{id}**
+- **GET /articles/{id}**
     Retrieves a specific article by ID.
--**GET /articles/search**
+- **GET /articles/search**
     Searches for articles by a keyword.
 
 ## Project Structure

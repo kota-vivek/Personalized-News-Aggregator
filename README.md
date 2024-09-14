@@ -13,7 +13,7 @@ This project is a Flask-based news aggregator that scrapes articles from various
 
 ## Introduction
 
-This project is a news aggregator that scrapes articles from multiple news websites, categorizes them into different topics, and provides a REST API to retrieve and search for articles. The project also uses NLP to automatically classify articles into categories such as World News, Sports, Business, etc.
+This project is a news aggregator that scrapes articles from multiple news websites and categorizes them into topics such as World News, Sports, Business, etc. It provides a REST API for retrieving and searching articles. NLP is used for automatic classification of the articles.
 
 ## Technologies Used
 
@@ -62,12 +62,12 @@ Visit http://127.0.0.1:5000/ to see the API in action.
 ## API Endpoints
 
 - **GET /articles**
-    Retrieves all articles.
-    Query parameters: category, start_date, end_date.
+    - Retrieves all articles.
+    - Query parameters: category, start_date, end_date.
 - **GET /articles/{id}**
-    Retrieves a specific article by ID.
+    - Retrieves a specific article by ID.
 - **GET /articles/search**
-    Searches for articles by a keyword.
+    - Searches for articles by a keyword.
 
 ## Project Structure
 
